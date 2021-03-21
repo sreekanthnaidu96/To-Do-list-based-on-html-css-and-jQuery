@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  margin-top: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  color: darkolivegreen;
+}
+.container {
+  background-image: linear-gradient(
+    to right,
+    rgba(243, 43, 43, 0.747),
+    rgba(66, 235, 66, 0.616)
+  );
+  border: 1px solid rgba(226, 78, 78, 0.411);
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding: 40px;
+  width: 80%;
+  overflow: auto;
+}
+#inp {
+  outline: none;
+  padding: 10px;
+}
+#inp::placeholder {
+  color: indianred;
+}
+#but1 {
+  padding: 10px;
+  margin-left: 20px;
+  cursor: pointer;
+  outline: none;
+  transition: all 1s linear;
+}
+#but1:hover {
+  border-radius: 25%;
+  background-color: dodgerblue;
+}
+#mylist {
+  text-align: left;
+  color: darkviolet;
+}
+#mylist > li {
+  padding: 10px;
+  text-transform: uppercase;
+}
+.mybut2 {
+  color: red;
+  margin-left: 30px;
+}
